@@ -37,7 +37,7 @@ namespace Project1.InOut{
             return Tuple.Create(username, password);
         }
         public static string userReimbursementOptions() {
-            Console.WriteLine("Enter 1 for reimbursement, 2 to check reimbursement status, or 3 to edit account or anything else to logout");
+            Console.WriteLine("Enter 1 for reimbursement, 2 to check reimbursement status, 3 to edit account, 4 to see profile image, or anything else to logout");
             return Console.ReadLine();
         }
         public static string userReimbursementAmount() {
@@ -67,7 +67,7 @@ namespace Project1.InOut{
             return Console.ReadLine();
         }
         public static string financeManagerLogIn() {
-            Console.WriteLine("Press 1 to get pending reimbursements, 2 to Promote/Demote users, or anything else to log out");
+            Console.WriteLine("Press 1 to get pending reimbursements, 2 to Promote/Demote users, 3 to see specific receipt, or anything else to log out");
             return Console.ReadLine();
         }
         public static string selectUser() {

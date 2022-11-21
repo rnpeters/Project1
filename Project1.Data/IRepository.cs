@@ -18,7 +18,7 @@ namespace Project1.Data
         public List<Tickets> getReimbursementsUserAll(string username);
         public List<Tickets> getReimbursementsUserSpecific(string username, string status);
 
-        public void UploadReciptImage(string username, double amount, string file);
-        public void GetReciptImage(string filef);
+        public void UploadReceiptImage(string username, double amount, string file);
+        public void GetReceiptImage(string username, double amount, string filef);
     }
 }

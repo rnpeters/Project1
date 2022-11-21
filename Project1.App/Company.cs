@@ -46,7 +46,7 @@ namespace Project1.App
                 do
                 {
                     c = LoggedInUser(username);
-                } while (c == "1" || c == "2");
+                } while (c == "1" || c == "2" || c=="3" || c=="4");
             }//else check if they already exist as a manager
             else if (apiClient.RunCheckLogExists(username, password, 1))
             {
@@ -54,7 +54,7 @@ namespace Project1.App
 
                 string log = IO.financeManagerLogIn();
 
-                while (log == "1" || log=="2" || log=="3")
+                while (log == "1" || log == "2" || log =="3")
                 {
                     log = LoggedInManager(username, log);
                 }
@@ -64,11 +64,11 @@ namespace Project1.App
                 IO.loginError();
             }
         }
-            //IF they are logging in as an employee then give them employee options
-            public string LoggedInUser(string username) {
+        //IF they are logging in as an employee then give them employee options
+        public string LoggedInUser(string username) {
             //lets them choose if the want to add a reimbursement, check reimbursements, or edit profile
             string c = IO.userReimbursementOptions();
-            
+
             if (c == "1")
             {
                 //make sure the amount for the reimbursemnt is an actually number
@@ -99,11 +99,11 @@ namespace Project1.App
 
                     //give the option to add an image of the receipt
                     Console.WriteLine("Would you like to add a receipt, if so add file link otherwise enter 1:");
-                    Console.WriteLine("Please write full path, ex. /Revature/Project1.reciept.jpg");
+                    Console.WriteLine("Please write full path, ex. /Revature/Project1/receipt.jpg");
                     string option = Console.ReadLine();
                     if (option != "1")
                     {
-                        apiClient.RunAddReciept(username, am, option);
+                        apiClient.RunAddReceipt(username, am, option);
                     }
 
 
@@ -159,28 +159,35 @@ namespace Project1.App
             //give them the option to edit their profile
             else if (c == "3") {
                 Console.WriteLine("What would you like to edit");
-                Console.WriteLine("Name(1), address(2), Profile Picture(3)");
+                Console.WriteLine("Name(1), Address(2), Profile Picture(3)");
                 string s = Console.ReadLine();
                 //Handle the specific requests
                 if (s == "1")
                 {
                     Console.WriteLine("Enter name");
                     string name = Console.ReadLine();
-                    apiClient.RunUpdateName(username,name);
+                    apiClient.RunUpdateName(username, name);
                 }
                 else if (s == "2")
                 {
                     Console.WriteLine("Enter address");
                     string address = Console.ReadLine();
-                    apiClient.RunUpdateAddress(username,address);
+                    apiClient.RunUpdateAddress(username, address);
 
                 }
                 else if (s == "3") {
                     Console.WriteLine("Enter File path:");
                     string path = Console.ReadLine();
-                    apiClient.RunUpdateProfile(username,path);
+                    apiClient.RunUpdateProfile(username, path);
 
                 }
+            }
+            else if (c == "4") {
+                
+                        Console.WriteLine("Enter Path you would like image to be saved to:");
+                        Console.WriteLine("Please write full path, ex. /Revature/Project1/newReceipt.jpg");
+                        string file = Console.ReadLine();
+                        apiClient.RunGetImageUser(username, file);
             }
             return c;
         }
@@ -188,7 +195,8 @@ namespace Project1.App
         public string LoggedInManager(string username, string log) {
             //give them the option to see tickets
             //option 1, to see reimbursements that need to be approved or declined
-            if (log =="1") {
+            if (log == "1")
+            {
                 List<Tickets> reimburse = apiClient.RunGetTicketsPending();
                 //if there are tickets then show tickets pending otherwise show that it is up to date
                 if (reimburse.Count > 0)
@@ -236,12 +244,14 @@ namespace Project1.App
                     IO.upToDate();
                 }
             }
-            else {
-               
+            else if (log == "2")
+            {
+
                 Console.WriteLine("Press 1 to get list of all users or enter the username, press 2 to exit");
                 string user = Console.ReadLine();
                 //if they dont press 2 proceed
-                if (user!="2") {
+                if (user != "2")
+                {
                     //if they want list then retrieve the list from DB
                     if (user == "1")
                     {
@@ -264,15 +274,36 @@ namespace Project1.App
                             Console.WriteLine("No Users");
                         }
                     }
-                    else {
+                    else
+                    {
                         //if they manager puts just the name of the user instead of asking for a list then find that user
                         //and give the option to promote or demote
                         PossiblePromotion(user);
                     }
                 }
-                    else {
-                        return IO.financeManagerLogIn();
+                else
+                {
+                    return IO.financeManagerLogIn();
+                }
+            }
+            else if (log == "3") {
+                Console.WriteLine("Enter username otherwise enter 1 to exit");
+                string user = Console.ReadLine();
+                if (user != "1")
+                {
+                    Console.WriteLine("Enter amount otherwise enter 1 to exit");
+                    string amount = Console.ReadLine();
+                    if (amount != "1") {
+                        if (!Double.TryParse(amount, out double newAmount)) {
+                            Console.WriteLine("Error, invalid amount");
+                        }
+                        Console.WriteLine("Enter Path you would like image to be saved to:");
+                        Console.WriteLine("Please write full path, ex. /Revature/Project1/newReceipt.jpg");
+                        string file = Console.ReadLine();
+                        apiClient.RunGetImageTicket(user,newAmount,file);
                     }
+                }
+
             }
             return IO.financeManagerLogIn();
         }

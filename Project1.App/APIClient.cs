@@ -58,8 +58,8 @@ namespace Project1.App
         public List<Tickets> RunGetTicketsByType(string username, string type) {
             return RunAsyncGetTicketsByType(username, type).GetAwaiter().GetResult();
         }
-        public void RunAddReciept(string username, double amount, string file) {
-            RunAsyncAddReciept(username, amount, file).GetAwaiter().GetResult();
+        public void RunAddReceipt(string username, double amount, string file) {
+            RunAsyncAddReceipt(username, amount, file).GetAwaiter().GetResult();
         }
         public void RunUpdateName(string username, string name) {
             RunAsyncUpdateName(username, name).GetAwaiter().GetResult();
@@ -70,7 +70,12 @@ namespace Project1.App
         public void RunUpdateProfile(string username, string file) {
             UpdateImage(username, file).GetAwaiter().GetResult();
         }
-
+        public void RunGetImageTicket(string username, double amount, string file) {
+            GetImageTicket(username,amount,file).GetAwaiter().GetResult();
+        }
+        public void RunGetImageUser(string username, string file) { 
+            GetImageUser(username,file).GetAwaiter().GetResult();
+        }
 
 
 
@@ -120,8 +125,8 @@ namespace Project1.App
         static async Task<List<Tickets>> RunAsyncGetTicketsByType(string username, string type) {
             return await GetTicketsByType(username, type);
         }
-        static async Task RunAsyncAddReciept(string username, double amount, string file) {
-            await AddReciept(username, amount, file);
+        static async Task RunAsyncAddReceipt(string username, double amount, string file) {
+            await AddReceipt(username, amount, file);
         }
         static async Task RunAsyncUpdateName(string username, string name) {
             await UpdateName(username, name);
@@ -131,6 +136,9 @@ namespace Project1.App
         }
         static async Task RunAsyncUpdateImage(string username, string file) {
             await UpdateImage(username, file);
+        }
+        static async Task RunAsyncGetImageTicket(string username, double amount, string file) {
+            await GetImageTicket(username, amount, file);
         }
         /*static async Task RunAsync() {
                 client.BaseAddress = new Uri("https://localhost:7149");
@@ -286,7 +294,7 @@ namespace Project1.App
             return await response.Content.ReadAsAsync<List<Tickets>>();
 
         }
-        static async Task AddReciept(string username, double amount, string file) {
+        static async Task AddReceipt(string username, double amount, string file) {
             Tickets t = new();
             t.username = username;
             t.amount = amount;
@@ -315,6 +323,20 @@ namespace Project1.App
             u.file = file;
             HttpResponseMessage response = await client.PostAsJsonAsync("/user/Image", u);
 
+        }
+        static async Task GetImageTicket(string username, double amount, string file) { 
+        Tickets t = new();
+            t.username = username;
+            t.amount = amount;
+            t.file = file;
+            HttpResponseMessage response = await client.PostAsJsonAsync("/Ticket/GetImage", t);
+        }
+        static async Task GetImageUser(string username, string file)
+        {
+            User u = new();
+            u.username = username;
+            u.file = file;
+            HttpResponseMessage response = await client.PostAsJsonAsync("/user/GetImage", u);
         }
     }
 }

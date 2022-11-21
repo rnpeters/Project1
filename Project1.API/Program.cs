@@ -27,25 +27,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateTime.Now.AddDays(index),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
-
 app.MapGet("/Tickets/Pending", (SqlRepository repo) => {
     repo.connectionString = connectionString;
     return repo.getReimbursementsPending();
@@ -108,7 +89,7 @@ app.MapPost("/user/Type",(Tickets t, SqlRepository repo) => {
 });
 app.MapPost("/Ticket/Image",(Tickets t, SqlRepository repo) => {
     repo.connectionString = connectionString;
-    repo.UploadReciptImage(t.username, t.amount, t.file);
+    repo.UploadReceiptImage(t.username, t.amount, t.file);
 });
 app.MapPost("/user/UpdateName",(User u, SqlRepository repo) => {
     repo.connectionString = connectionString;
@@ -121,6 +102,14 @@ app.MapPost("/user/UpdateAddress", (User u, SqlRepository repo) => {
 app.MapPost("/user/Image", (Tickets t, SqlRepository repo) => {
     repo.connectionString = connectionString;
     repo.UpdateProfile(t.username, t.file);
+});
+app.MapPost("/Ticket/GetImage",(Tickets t,SqlRepository repo) => {
+    repo.connectionString = connectionString;
+    repo.GetReceiptImage(t.username, t.amount, t.file);
+});
+app.MapPost("/user/GetImage", (Tickets t, SqlRepository repo) => {
+    repo.connectionString = connectionString;
+    repo.GetProfileImage(t.username, t.file);
 });
 app.Run();
 

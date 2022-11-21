@@ -303,8 +303,8 @@ namespace Project1.Data {
             using SqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
             {
-                Console.WriteLine(adminstatus);
-                Console.WriteLine(reader.GetString(0));
+                //Console.WriteLine(adminstatus);
+                //Console.WriteLine(reader.GetString(0));
                 return true;
             }
             connection.Close();
@@ -326,7 +326,7 @@ namespace Project1.Data {
             cmd.ExecuteNonQuery();
         }
 
-        public void UploadReciptImage(string username,double amount,string file) {
+        public void UploadReceiptImage(string username,double amount,string file) {
             //string username = "Ryan";
             //double amount = 123;
             using SqlConnection connection = new SqlConnection(connectionString);
@@ -345,13 +345,16 @@ namespace Project1.Data {
             {
                 TicketId = reader.GetInt32(0);
             }
+            if (TicketId == null) {
+                return;
+            }
             connection.Close();
             connection.Open();
         
             //byte[] f = File.ReadAllBytes("/Revature/Project1/Receipt.jpg");
             byte[] f = File.ReadAllBytes(file);
 
-            Console.WriteLine(f.Length);
+            //Console.WriteLine(f.Length);
 
             SqlCommand cmd3 = new SqlCommand("UPDATE Project1.Tickets SET Image = @img FROM Project1.Users JOIN Project1.Tickets ON Project1.Tickets.UsersId = Project1.Users.UsersId WHERE TicketId = @TicketId;\r\n", connection) ;
             cmd3.Parameters.Add("@img", SqlDbType.VarBinary).Value = f;
@@ -360,10 +363,10 @@ namespace Project1.Data {
             connection.Close();
 
         }
-        public void GetReciptImage(string filef)
+        public void GetReceiptImage(string username,double amount, string filef)
         {
-            string username = "Ryan";
-            double amount = 123;
+            //string username = "Ryan";
+            //double amount = 123;
 
             using SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
@@ -394,7 +397,7 @@ namespace Project1.Data {
                 image = (byte[])reader2["Image"];
             }
             connection.Close();
-            string path = "/Revature/Project1/ReceiptNew.jpg";
+            string path = filef;
             File.WriteAllBytes(path, image);
         }
         public void UpdateName(string username,string name) { 
@@ -436,6 +439,27 @@ namespace Project1.Data {
             
             cmd3.ExecuteNonQuery();
             connection.Close();
+        }
+        public void GetProfileImage(string username, string filef)
+        {
+            //string username = "Ryan";
+            //double amount = 123;
+
+            using SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+
+            SqlCommand cmd3 = new SqlCommand("Select Image FROM Project1.Users WHERE username = @username;", connection);
+
+            cmd3.Parameters.AddWithValue("@username", username);
+            using SqlDataReader reader2 = cmd3.ExecuteReader();
+            byte[] image = null;
+            while (reader2.Read())
+            {
+                image = (byte[])reader2["Image"];
+            }
+            connection.Close();
+            string path = filef;
+            File.WriteAllBytes(path, image);
         }
     }
 }
