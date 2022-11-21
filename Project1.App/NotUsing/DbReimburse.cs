@@ -1,4 +1,4 @@
-namespace p1{
+namespace Project1.NoMore{
     public class DbReimburse : IEquatable<DbReimburse>{
 
         public string username;

@@ -1,0 +1,2293 @@
+{
+  "Project1.App.dll": {
+    "C:\\Revature\\Project1\\Testing.cs": {
+      "p1.Testing": {
+        "System.Void p1.Testing::getT()": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project1\\Db.cs": {
+      "Project1.NoMore.Db": {
+        "System.Boolean Project1.NoMore.Db::Equals(Project1.NoMore.Db)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 18,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 42,
+              "EndOffset": 44,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 42,
+              "EndOffset": 49,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Project1.NoMore.Db::.ctor()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.NoMore.Db::.ctor(System.String,System.String)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project1\\DbReimburse.cs": {
+      "Project1.NoMore.DbReimburse": {
+        "System.Boolean Project1.NoMore.DbReimburse::Equals(Project1.NoMore.DbReimburse)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 20,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Project1.NoMore.DbReimburse::.ctor()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.NoMore.DbReimburse::.ctor(System.String,System.Double,System.String,System.String)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project1\\Employee.cs": {
+      "Project1.NoMore.Employee": {
+        "System.Boolean Project1.NoMore.Employee::checkLogExists(System.String,System.String)": {
+          "Lines": {
+            "11": 0,
+            "16": 0,
+            "18": 0,
+            "20": 0,
+            "22": 0
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 20,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Project1.NoMore.Employee::checkUserExists(System.String)": {
+          "Lines": {
+            "23": 0,
+            "27": 0,
+            "29": 0,
+            "31": 0,
+            "33": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 38,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 38,
+              "EndOffset": 45,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Project1.NoMore.Employee::create(System.String,System.String)": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.NoMore.Employee::statusUpdate(System.String,System.Double,System.Boolean)": {
+          "Lines": {
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "53": 0,
+            "54": 0,
+            "73": 0
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 34,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 222,
+              "EndOffset": 74,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 94,
+              "EndOffset": 96,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 94,
+              "EndOffset": 114,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 119,
+              "EndOffset": 121,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 134,
+              "EndOffset": 136,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 134,
+              "EndOffset": 160,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 185,
+              "EndOffset": 187,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 185,
+              "EndOffset": 201,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 119,
+              "EndOffset": 215,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 222,
+              "EndOffset": 227,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 17,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Project1.NoMore.Employee::.cctor()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project1\\FinanceManager.cs": {
+      "Project1.NoMore.FinanceManager": {
+        "System.Boolean Project1.NoMore.FinanceManager::checkExists(System.String,System.String)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "15": 0,
+            "16": 0,
+            "18": 0,
+            "20": 0
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 22,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Project1.NoMore.FinanceManager::addReimbursement(System.String,System.Double,System.String)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Project1.NoMore.FinanceManager::getReimbursementsPending()": {
+          "Lines": {
+            "25": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 163,
+              "EndOffset": 8,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 163,
+              "EndOffset": 168,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 183,
+              "EndOffset": 185,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 183,
+              "EndOffset": 191,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Project1.NoMore.FinanceManager::getReimbursementsUser(System.String)": {
+          "Lines": {
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 218,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 218,
+              "EndOffset": 223,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 236,
+              "EndOffset": 238,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 236,
+              "EndOffset": 244,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Project1.NoMore.FinanceManager::.cctor()": {
+          "Lines": {
+            "6": 0,
+            "7": 0,
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project1\\APIClient.cs": {
+      "Project1.App.APIClient": {
+        "System.Collections.Generic.List`1<Project1.Logic.Tickets> Project1.App.APIClient::RunGetTicketsPending()": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Project1.Logic.Tickets> Project1.App.APIClient::RunGetTicketsUser(System.String)": {
+          "Lines": {
+            "28": 1,
+            "29": 1,
+            "30": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Project1.Logic.Tickets> Project1.App.APIClient::RunGetTicketsUserSpecific(System.String,System.String)": {
+          "Lines": {
+            "31": 3,
+            "32": 3,
+            "33": 3
+          },
+          "Branches": []
+        },
+        "System.Boolean Project1.App.APIClient::RunCheckLogExists(System.String,System.String,System.Int32)": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Project1.App.APIClient::RunCheckUserExists(System.String)": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.App.APIClient::RunAddTicket(System.String,System.Double,System.String)": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Project1.App.APIClient::RunUpdate(System.String,System.Double,System.String)": {
+          "Lines": {
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.App.APIClient::RunCreate(System.String,System.String)": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.App.APIClient::.ctor()": {
+          "Lines": {
+            "17": 2,
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project1.App.APIClient::.cctor()": {
+          "Lines": {
+            "15": 1
+          },
+          "Branches": []
+        }
+      },
+      "Project1.App.APIClient/<GetTicketsPending>d__18": {
+        "System.Void Project1.App.APIClient/<GetTicketsPending>d__18::MoveNext()": {
+          "Lines": {
+            "143": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0
+          },
+          "Branches": [
+            {
+              "Line": 148,
+              "Offset": 193,
+              "EndOffset": 198,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 148,
+              "Offset": 193,
+              "EndOffset": 333,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Project1.App.APIClient/<GetTicketsUser>d__19": {
+        "System.Void Project1.App.APIClient/<GetTicketsUser>d__19::MoveNext()": {
+          "Lines": {
+            "153": 1,
+            "154": 1,
+            "156": 1,
+            "157": 1,
+            "158": 1,
+            "159": 1,
+            "160": 1,
+            "161": 1,
+            "162": 1,
+            "163": 1,
+            "164": 1
+          },
+          "Branches": [
+            {
+              "Line": 159,
+              "Offset": 216,
+              "EndOffset": 221,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 159,
+              "Offset": 216,
+              "EndOffset": 356,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Project1.App.APIClient/<GetTicketsUserSpecific>d__20": {
+        "System.Void Project1.App.APIClient/<GetTicketsUserSpecific>d__20::MoveNext()": {
+          "Lines": {
+            "165": 3,
+            "166": 3,
+            "167": 3,
+            "168": 3,
+            "169": 3,
+            "170": 3,
+            "171": 3,
+            "172": 3,
+            "173": 3,
+            "174": 3,
+            "175": 3,
+            "176": 3
+          },
+          "Branches": [
+            {
+              "Line": 171,
+              "Offset": 237,
+              "EndOffset": 242,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 171,
+              "Offset": 237,
+              "EndOffset": 377,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        }
+      },
+      "Project1.App.APIClient/<RunAsyncAddTickets>d__15": {
+        "System.Void Project1.App.APIClient/<RunAsyncAddTickets>d__15::MoveNext()": {
+          "Lines": {
+            "83": 0,
+            "84": 0,
+            "85": 0
+          },
+          "Branches": []
+        }
+      },
+      "Project1.App.APIClient/<RunAsyncCheckLogExists>d__13": {
+        "System.Void Project1.App.APIClient/<RunAsyncCheckLogExists>d__13::MoveNext()": {
+          "Lines": {
+            "75": 0,
+            "76": 0,
+            "78": 0
+          },
+          "Branches": []
+        }
+      },
+      "Project1.App.APIClient/<RunAsyncCheckUserExists>d__14": {
+        "System.Void Project1.App.APIClient/<RunAsyncCheckUserExists>d__14::MoveNext()": {
+          "Lines": {
+            "79": 0,
+            "80": 0,
+            "82": 0
+          },
+          "Branches": []
+        }
+      },
+      "Project1.App.APIClient/<RunAsyncCreate>d__17": {
+        "System.Void Project1.App.APIClient/<RunAsyncCreate>d__17::MoveNext()": {
+          "Lines": {
+            "89": 0,
+            "90": 0,
+            "91": 0
+          },
+          "Branches": []
+        }
+      },
+      "Project1.App.APIClient/<RunAsyncGetTicketsPending>d__10": {
+        "System.Void Project1.App.APIClient/<RunAsyncGetTicketsPending>d__10::MoveNext()": {
+          "Lines": {
+            "49": 0,
+            "51": 0,
+            "52": 0,
+            "59": 0
+          },
+          "Branches": []
+        }
+      },
+      "Project1.App.APIClient/<RunAsyncGetTicketsUser>d__11": {
+        "System.Void Project1.App.APIClient/<RunAsyncGetTicketsUser>d__11::MoveNext()": {
+          "Lines": {
+            "60": 1,
+            "61": 1,
+            "66": 1,
+            "67": 1
+          },
+          "Branches": []
+        }
+      },
+      "Project1.App.APIClient/<RunAsyncGetTicketsUserSpecific>d__12": {
+        "System.Void Project1.App.APIClient/<RunAsyncGetTicketsUserSpecific>d__12::MoveNext()": {
+          "Lines": {
+            "68": 3,
+            "69": 3,
+            "73": 3,
+            "74": 3
+          },
+          "Branches": []
+        }
+      },
+      "Project1.App.APIClient/<RunAsyncUpdate>d__16": {
+        "System.Void Project1.App.APIClient/<RunAsyncUpdate>d__16::MoveNext()": {
+          "Lines": {
+            "86": 0,
+            "87": 0,
+            "88": 0
+          },
+          "Branches": []
+        }
+      },
+      "Project1.App.APIClient/<addTickets>d__23": {
+        "System.Void Project1.App.APIClient/<addTickets>d__23::MoveNext()": {
+          "Lines": {
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0
+          },
+          "Branches": []
+        }
+      },
+      "Project1.App.APIClient/<checkLogExists>d__21": {
+        "System.Void Project1.App.APIClient/<checkLogExists>d__21::MoveNext()": {
+          "Lines": {
+            "177": 0,
+            "179": 0,
+            "181": 0,
+            "185": 0,
+            "187": 0,
+            "188": 0
+          },
+          "Branches": []
+        }
+      },
+      "Project1.App.APIClient/<checkUserExists>d__22": {
+        "System.Void Project1.App.APIClient/<checkUserExists>d__22::MoveNext()": {
+          "Lines": {
+            "189": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "195": 0,
+            "196": 0
+          },
+          "Branches": []
+        }
+      },
+      "Project1.App.APIClient/<createUser>d__24": {
+        "System.Void Project1.App.APIClient/<createUser>d__24::MoveNext()": {
+          "Lines": {
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0
+          },
+          "Branches": []
+        }
+      },
+      "Project1.App.APIClient/<update>d__25": {
+        "System.Void Project1.App.APIClient/<update>d__25::MoveNext()": {
+          "Lines": {
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "218": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project1\\Company.cs": {
+      "Project1.App.Company": {
+        "System.String Project1.App.Company::LogInOrRegister()": {
+          "Lines": {
+            "26": 2,
+            "27": 2,
+            "29": 3,
+            "30": 1,
+            "34": 1,
+            "35": 1,
+            "36": 2,
+            "37": 2
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 46,
+              "EndOffset": 9,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 29,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 29,
+              "Offset": 28,
+              "EndOffset": 43,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 29,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.String Project1.App.Company::LoggedInUser(System.String)": {
+          "Lines": {
+            "38": 6,
+            "39": 6,
+            "41": 6,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "55": 0,
+            "56": 1,
+            "57": 5,
+            "58": 5,
+            "59": 5,
+            "60": 5,
+            "61": 1,
+            "62": 1,
+            "63": 1,
+            "64": 4,
+            "65": 1,
+            "66": 1,
+            "67": 1,
+            "68": 3,
+            "69": 1,
+            "70": 1,
+            "71": 1,
+            "72": 2,
+            "73": 1,
+            "74": 1,
+            "75": 1,
+            "77": 1,
+            "78": 1,
+            "79": 1,
+            "80": 5,
+            "81": 6,
+            "82": 6
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 44,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 44,
+              "Offset": 44,
+              "EndOffset": 56,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 20,
+              "EndOffset": 86,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            },
+            {
+              "Line": 57,
+              "Offset": 101,
+              "EndOffset": 106,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 5
+            },
+            {
+              "Line": 60,
+              "Offset": 130,
+              "EndOffset": 132,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 60,
+              "Offset": 130,
+              "EndOffset": 157,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 4
+            },
+            {
+              "Line": 64,
+              "Offset": 173,
+              "EndOffset": 175,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 64,
+              "Offset": 173,
+              "EndOffset": 202,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 3
+            },
+            {
+              "Line": 68,
+              "Offset": 218,
+              "EndOffset": 220,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 68,
+              "Offset": 218,
+              "EndOffset": 247,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 2
+            },
+            {
+              "Line": 72,
+              "Offset": 263,
+              "EndOffset": 265,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 1
+            },
+            {
+              "Line": 72,
+              "Offset": 263,
+              "EndOffset": 292,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 1
+            },
+            {
+              "Line": 57,
+              "Offset": 101,
+              "EndOffset": 301,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 6
+            }
+          ]
+        },
+        "System.String Project1.App.Company::LoggedInManager(System.String)": {
+          "Lines": {
+            "84": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "111": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0
+          },
+          "Branches": [
+            {
+              "Line": 87,
+              "Offset": 23,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 57,
+              "EndOffset": 59,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 57,
+              "EndOffset": 72,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 97,
+              "Offset": 124,
+              "EndOffset": 76,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 100,
+              "Offset": 98,
+              "EndOffset": 100,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 100,
+              "Offset": 98,
+              "EndOffset": 105,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 97,
+              "Offset": 124,
+              "EndOffset": 126,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 106,
+              "Offset": 131,
+              "EndOffset": 133,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 106,
+              "Offset": 131,
+              "EndOffset": 143,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 116,
+              "Offset": 181,
+              "EndOffset": 183,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 116,
+              "Offset": 181,
+              "EndOffset": 191,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 23,
+              "EndOffset": 195,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Project1.App.Company::checkIfLogExists(System.String,System.String,System.Int32)": {
+          "Lines": {
+            "127": 0,
+            "128": 0,
+            "129": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.App.Company::Register()": {
+          "Lines": {
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0
+          },
+          "Branches": [
+            {
+              "Line": 135,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 135,
+              "Offset": 28,
+              "EndOffset": 41,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 135,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 137,
+              "Offset": 65,
+              "EndOffset": 67,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 137,
+              "Offset": 65,
+              "EndOffset": 84,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 135,
+              "Offset": 44,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Project1.App.Company::checkIfUserExists(System.String)": {
+          "Lines": {
+            "151": 0,
+            "152": 0,
+            "153": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.App.Company::noReimbursementsCheck(System.Collections.Generic.List`1<Project1.Logic.Tickets>)": {
+          "Lines": {
+            "155": 6,
+            "156": 6,
+            "157": 1,
+            "158": 1,
+            "159": 1,
+            "161": 5,
+            "162": 5,
+            "163": 5,
+            "164": 6
+          },
+          "Branches": [
+            {
+              "Line": 156,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 156,
+              "Offset": 12,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Double Project1.App.Company::validateAmout()": {
+          "Lines": {
+            "166": 2,
+            "167": 2,
+            "169": 3,
+            "170": 1,
+            "171": 1,
+            "172": 1,
+            "173": 2,
+            "174": 2
+          },
+          "Branches": [
+            {
+              "Line": 169,
+              "Offset": 30,
+              "EndOffset": 9,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 169,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.String Project1.App.Company::acceptOrDecline()": {
+          "Lines": {
+            "175": 3,
+            "176": 3,
+            "177": 4,
+            "178": 1,
+            "179": 1,
+            "180": 1,
+            "182": 3,
+            "183": 2,
+            "184": 2,
+            "185": 2,
+            "187": 1,
+            "188": 1,
+            "189": 1,
+            "190": 3,
+            "191": 3
+          },
+          "Branches": [
+            {
+              "Line": 177,
+              "Offset": 46,
+              "EndOffset": 9,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 177,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 177,
+              "Offset": 28,
+              "EndOffset": 43,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 177,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 182,
+              "Offset": 61,
+              "EndOffset": 63,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 182,
+              "Offset": 61,
+              "EndOffset": 73,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Project1.App.Company::.ctor()": {
+          "Lines": {
+            "19": 45
+          },
+          "Branches": []
+        },
+        "System.Void Project1.App.Company::.ctor(Project1.Data.IRepository)": {
+          "Lines": {
+            "20": 0,
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.App.Company::.cctor()": {
+          "Lines": {
+            "18": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project1\\Program.cs": {
+      "Project1.App.Program": {
+        "System.Void Project1.App.Program::Main()": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "16": 0,
+            "17": 0,
+            "22": 0,
+            "23": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 58,
+              "EndOffset": 63,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 104,
+              "EndOffset": 106,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 165,
+              "EndOffset": 120,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 144,
+              "EndOffset": 146,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 144,
+              "EndOffset": 160,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 165,
+              "EndOffset": 167,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 104,
+              "EndOffset": 170,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 185,
+              "EndOffset": 187,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 231,
+              "EndOffset": 203,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 231,
+              "EndOffset": 233,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 185,
+              "EndOffset": 236,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 58,
+              "EndOffset": 247,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Project1.Data.dll": {
+    "C:\\Revature\\Project1.Data\\SqlRepository.cs": {
+      "Project1.Data.SqlRepository": {
+        "System.Void Project1.Data.SqlRepository::addReimbursement(System.String,System.Double,System.String)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 85,
+              "EndOffset": 64,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 85,
+              "EndOffset": 87,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Project1.Data.SqlRepository::checkLogExists(System.String,System.String,System.Int32)": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "60": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "73": 0,
+            "74": 0
+          },
+          "Branches": [
+            {
+              "Line": 62,
+              "Offset": 133,
+              "EndOffset": 112,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 133,
+              "EndOffset": 135,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 153,
+              "EndOffset": 155,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 153,
+              "EndOffset": 161,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Project1.Data.SqlRepository::checkUserExists(System.String)": {
+          "Lines": {
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "83": 0,
+            "85": 0,
+            "87": 0,
+            "90": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "102": 0,
+            "105": 0
+          },
+          "Branches": [
+            {
+              "Line": 92,
+              "Offset": 85,
+              "EndOffset": 64,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 85,
+              "EndOffset": 87,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 105,
+              "EndOffset": 107,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 105,
+              "EndOffset": 113,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Project1.Data.SqlRepository::createUser(System.String,System.String)": {
+          "Lines": {
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "112": 0,
+            "113": 0,
+            "115": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "121": 0,
+            "143": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Project1.Logic.Tickets> Project1.Data.SqlRepository::getReimbursementsPending()": {
+          "Lines": {
+            "146": 0,
+            "147": 0,
+            "149": 0,
+            "150": 0,
+            "152": 0,
+            "154": 0,
+            "156": 0,
+            "158": 0,
+            "159": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0
+          },
+          "Branches": [
+            {
+              "Line": 158,
+              "Offset": 127,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 158,
+              "Offset": 127,
+              "EndOffset": 129,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Collections.Generic.List`1<Project1.Logic.Tickets> Project1.Data.SqlRepository::getReimbursementsUserAll(System.String)": {
+          "Lines": {
+            "176": 0,
+            "177": 0,
+            "180": 0,
+            "181": 0,
+            "183": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0
+          },
+          "Branches": [
+            {
+              "Line": 189,
+              "Offset": 145,
+              "EndOffset": 68,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 189,
+              "Offset": 145,
+              "EndOffset": 147,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Collections.Generic.List`1<Project1.Logic.Tickets> Project1.Data.SqlRepository::getReimbursementsUserSpecific(System.String,System.String)": {
+          "Lines": {
+            "203": 0,
+            "204": 0,
+            "207": 0,
+            "208": 0,
+            "210": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0
+          },
+          "Branches": [
+            {
+              "Line": 217,
+              "Offset": 163,
+              "EndOffset": 86,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 217,
+              "Offset": 163,
+              "EndOffset": 165,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Int32 Project1.Data.SqlRepository::updateStatus(System.String,System.Double,System.String)": {
+          "Lines": {
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "235": 0,
+            "236": 0,
+            "238": 0,
+            "239": 0,
+            "241": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "252": 0,
+            "253": 0,
+            "255": 0,
+            "256": 0,
+            "260": 0,
+            "261": 0
+          },
+          "Branches": [
+            {
+              "Line": 244,
+              "Offset": 109,
+              "EndOffset": 87,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 244,
+              "Offset": 109,
+              "EndOffset": 111,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Project1.Data.SqlRepository::.ctor()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.Data.SqlRepository::.ctor(System.String)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Project1.InOut.dll": {
+    "C:\\Revature\\IO\\IO.cs": {
+      "Project1.InOut.IO": {
+        "System.Void Project1.InOut.IO::Welcome()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.InOut.IO::LoggedIn()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.InOut.IO::errorTryAgain()": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.InOut.IO::NoReimburse()": {
+          "Lines": {
+            "18": 5,
+            "19": 5,
+            "20": 5
+          },
+          "Branches": []
+        },
+        "System.Void Project1.InOut.IO::invalidInput()": {
+          "Lines": {
+            "21": 1,
+            "22": 1,
+            "23": 1
+          },
+          "Branches": []
+        },
+        "System.String Project1.InOut.IO::loginRegisterChoice()": {
+          "Lines": {
+            "24": 5,
+            "25": 5,
+            "26": 5,
+            "27": 5
+          },
+          "Branches": []
+        },
+        "System.String Project1.InOut.IO::loginRegisterChoiceError()": {
+          "Lines": {
+            "28": 2,
+            "29": 2,
+            "30": 2,
+            "31": 2
+          },
+          "Branches": []
+        },
+        "System.Tuple`2<System.String,System.String> Project1.InOut.IO::login()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.String Project1.InOut.IO::userReimbursementOptions()": {
+          "Lines": {
+            "39": 6,
+            "40": 6,
+            "41": 6,
+            "42": 6
+          },
+          "Branches": []
+        },
+        "System.String Project1.InOut.IO::userReimbursementAmount()": {
+          "Lines": {
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project1.InOut.IO::userReimbursementAmountError()": {
+          "Lines": {
+            "48": 1,
+            "49": 1,
+            "50": 1
+          },
+          "Branches": []
+        },
+        "System.String Project1.InOut.IO::userReimbursementDescript()": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0
+          },
+          "Branches": [
+            {
+              "Line": 55,
+              "Offset": 83,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 83,
+              "EndOffset": 85,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String Project1.InOut.IO::userReimbursementChoice()": {
+          "Lines": {
+            "63": 5,
+            "64": 5,
+            "65": 5,
+            "66": 5,
+            "67": 5,
+            "68": 5
+          },
+          "Branches": []
+        },
+        "System.String Project1.InOut.IO::financeManagerLogIn()": {
+          "Lines": {
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0
+          },
+          "Branches": []
+        },
+        "System.String Project1.InOut.IO::selectUser()": {
+          "Lines": {
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0
+          },
+          "Branches": []
+        },
+        "System.String Project1.InOut.IO::selectUserError()": {
+          "Lines": {
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0
+          },
+          "Branches": []
+        },
+        "System.String Project1.InOut.IO::selectAmount()": {
+          "Lines": {
+            "81": 3,
+            "82": 3,
+            "83": 3,
+            "84": 3
+          },
+          "Branches": []
+        },
+        "System.String Project1.InOut.IO::selectAmountError()": {
+          "Lines": {
+            "85": 1,
+            "86": 1,
+            "87": 1,
+            "88": 1
+          },
+          "Branches": []
+        },
+        "System.String Project1.InOut.IO::selectApproveDecline()": {
+          "Lines": {
+            "89": 4,
+            "90": 4,
+            "91": 4,
+            "92": 4
+          },
+          "Branches": []
+        },
+        "System.String Project1.InOut.IO::selectApproveDeclineError()": {
+          "Lines": {
+            "93": 1,
+            "94": 1,
+            "95": 1,
+            "96": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project1.InOut.IO::upToDate()": {
+          "Lines": {
+            "97": 0,
+            "98": 0,
+            "99": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.InOut.IO::loginError()": {
+          "Lines": {
+            "100": 0,
+            "101": 0,
+            "102": 0
+          },
+          "Branches": []
+        },
+        "System.Tuple`2<System.String,System.String> Project1.InOut.IO::register()": {
+          "Lines": {
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.InOut.IO::registerError()": {
+          "Lines": {
+            "110": 0,
+            "111": 0,
+            "112": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.InOut.IO::emptyInputError()": {
+          "Lines": {
+            "113": 0,
+            "114": 0,
+            "115": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.InOut.IO::ManagerTickets(System.Collections.Generic.List`1<Project1.Logic.Tickets>)": {
+          "Lines": {
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0
+          },
+          "Branches": [
+            {
+              "Line": 117,
+              "Offset": 131,
+              "EndOffset": 11,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 117,
+              "Offset": 131,
+              "EndOffset": 133,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Project1.InOut.IO::UserTickets(System.Collections.Generic.List`1<Project1.Logic.Tickets>)": {
+          "Lines": {
+            "123": 1,
+            "124": 5,
+            "125": 1,
+            "127": 1,
+            "128": 1,
+            "129": 1
+          },
+          "Branches": [
+            {
+              "Line": 124,
+              "Offset": 131,
+              "EndOffset": 11,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 124,
+              "Offset": 131,
+              "EndOffset": 133,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Project1.InOut.IO::WriteLine(System.String)": {
+          "Lines": {
+            "130": 0,
+            "131": 0,
+            "132": 0
+          },
+          "Branches": []
+        },
+        "System.String Project1.InOut.IO::ReadLine()": {
+          "Lines": {
+            "133": 0,
+            "134": 0,
+            "135": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Project1.Logic.dll": {
+    "C:\\Revature\\Project1.Logic\\Tickets.cs": {
+      "Project1.Logic.Tickets": {
+        "System.String Project1.Logic.Tickets::get_username()": {
+          "Lines": {
+            "13": 9
+          },
+          "Branches": []
+        },
+        "System.Double Project1.Logic.Tickets::get_amount()": {
+          "Lines": {
+            "14": 7
+          },
+          "Branches": []
+        },
+        "System.String Project1.Logic.Tickets::get_descript()": {
+          "Lines": {
+            "15": 7
+          },
+          "Branches": []
+        },
+        "System.String Project1.Logic.Tickets::get_stat()": {
+          "Lines": {
+            "16": 10
+          },
+          "Branches": []
+        },
+        "System.Void Project1.Logic.Tickets::.ctor()": {
+          "Lines": {
+            "18": 15
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project1.Logic\\User.cs": {
+      "Project1.Logic.User": {
+        "System.String Project1.Logic.User::get_username()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Project1.Logic.User::get_password()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Project1.Logic.User::get_managerStatus()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.Logic.User::.ctor()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void Project1.Logic.User::.ctor(System.String,System.String,System.Int32)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
